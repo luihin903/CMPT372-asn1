@@ -1,0 +1,25 @@
+input, button, textarea {
+    font-size: 32px;
+}
+
+input, textarea {
+    width: 98.7%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+button {
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+}
+
+fieldset {
+    border: 1px solid gray;
+    border-radius: 4px; 
+}

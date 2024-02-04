@@ -1,0 +1,11 @@
+<div *ngIf = "recipe == null">
+    Recipe Not Found
+</div>
+
+<div *ngIf = "recipe != null">
+    <h1>{{ recipe.title }}</h1>
+    <br>
+    <p>{{ recipe.ingredients }}</p>
+    <br>
+    <p>{{ recipe.directions }}</p>
+</div>

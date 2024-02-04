@@ -1,0 +1,29 @@
+<form
+    [formGroup] = "form"
+    (ngSubmit) = "onSubmit(form.value)"
+>
+
+    <fieldset>
+
+        <input
+            type = "text"
+            placeholder = "Titile"
+            formControlName = "title"
+        >
+
+        <textarea
+            placeholder = "Ingredients"
+            formControlName = "ingredients"
+        ></textarea>
+
+        <textarea
+            placeholder = "Directions"
+            formControlName = "directions"
+            rows = "3"
+        ></textarea>
+
+        <button [disabled] = "!form.valid">Add Recipe</button>
+
+    </fieldset>
+
+</form>
