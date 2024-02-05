@@ -1,4 +1,4 @@
-input, button, textarea {
+input, button:not(.button), textarea {
     font-size: 32px;
 }
 
@@ -8,7 +8,7 @@ input, textarea {
     margin-bottom: 8px;
 }
 
-button {
+button:not(.button) {
     width: 100%;
     margin-top: 8px;
     margin-bottom: 8px;

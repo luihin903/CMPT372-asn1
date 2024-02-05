@@ -1,0 +1,14 @@
+h1 {
+    font-size: 64px;
+    text-align: center;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+p {
+    white-space: pre-line;
+    font-size: 32px;
+}

@@ -1,11 +1,14 @@
+<a href = "/"><button class = "button">&#8592;</button></a>
+
 <div *ngIf = "recipe == null">
     Recipe Not Found
 </div>
 
 <div *ngIf = "recipe != null">
     <h1>{{ recipe.title }}</h1>
-    <br>
+    <p>{{ recipe.time }}</p>
+    <h2>Ingredients:</h2>
     <p>{{ recipe.ingredients }}</p>
-    <br>
+    <h2>Directions:</h2>
     <p>{{ recipe.directions }}</p>
 </div>

@@ -1,0 +1,18 @@
+h1 {
+    font-size: 64px;
+    margin: 0px;
+}
+
+div {
+    margin: 16px;
+}
+
+a {
+    font-size: 64px;
+}
+
+.button {
+    line-height: 1;
+    padding: 16px;
+    border-radius: 64px;
+}

@@ -14,7 +14,6 @@ export class ViewComponent {
 
 	constructor(private rs: RecipeService, private router: Router) {
 		this.recipes = rs.recipes;
-		console.log(rs.recipes);
 	}
 
 }
